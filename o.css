@@ -1,0 +1,371 @@
+body{
+margin: 0;
+padding: 0;
+font-family: "Segoe UI", "Calibri", sans-serif;
+background-image:url(ps4.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+#barra{
+background-color:white;
+width:100%;
+height:105px;
+font-size:80px;
+position: fixed;
+top: 0;
+left: 0;
+z-index: 100;
+box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.2);
+}
+#p{
+width:10%;
+font-size:80px;
+float:left;
+}
+.boton{
+background-color:white;
+width:7%;
+height:100px;
+float:right;
+color:black;
+font-size:20px;
+transition: all 0.3s;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor:pointer;
+}
+.boton:hover{
+border-bottom:5px solid grey;
+transform:scale(1.2);
+box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.2);
+}
+#gigante{
+height:1000px;
+width:100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+#gigantedos{
+height:700px;
+width:100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#gigantetres{
+height:700px;
+width:33%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+float:left;
+}
+#gigantecuatro{
+height:700px;
+width:33%;
+display: flex;
+justify-content: center;
+align-items: center;
+gap:20%;
+float:left;
+}
+#gigantecinco{
+height:700px;
+width:33%;
+display: flex;
+justify-content: center;
+align-items: center;
+gap:20%;
+float:left;
+}
+
+
+#rio{
+width:15%;
+height:600px;
+background-color: white;
+float:left;
+transition: all 1.5s;
+display:flex;
+justify-content:center;
+align-items:center;
+opacity:0.5;
+
+}
+#rio:hover{
+width:40%;
+filter: brightness(120%);
+opacity:1;
+}
+#uno{
+width:90%;
+height:600px;
+display:flex;
+justify-content:center;
+
+}
+
+#nicoyfore{
+width:100%;
+height:600px;
+object-fit:cover;
+}
+
+#contenedor{
+margin-top:100px;
+display:grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: repeat(4,60vh); 
+gap:20px;
+height:100%;
+width:80%;
+}
+
+#unoi{
+background-image:url(ps5.jpg);
+border: solid #B0B0B0 2px;
+border-radius:10px;
+transition: all 0.5s ease;
+}
+
+
+#dos{
+background-image:url(ps5.jpg);
+border:solid #B0B0B0 2px;
+border-radius:10px;
+transition: all 0.5s ease;
+}
+
+#vegas{
+float:right;
+height:400px;
+width:250px;
+margin-top:50px;
+}
+
+#pipu{
+height:1100px;
+width:100%;
+background-image: url('ps5.jpg')
+}
+
+#pipu:hover{
+filter:brightness(180%);
+
+}
+#pipu{
+transition: all 0.5s ease-out;
+}
+#logito, #coso1:hover{
+filter: invert(75%);
+transition: all 0.5s ease-out;
+
+
+
+
+}
+#logito, #coso2:hover{
+filter: invert(75%);
+transition: all 0.5s ease-out;
+
+
+
+
+}
+#logito, #coso3:hover{
+filter: invert(75%);
+transition: all 0.5s ease-out;
+
+
+
+
+}
+#logito, #coso4:hover{
+filter: invert(75%);
+transition: all 0.5s ease-out;
+
+
+
+
+}
+#logito, #coso5:hover{
+filter: invert(75%);
+transition: all 0.5s ease-out;
+
+
+
+
+}
+#logito, #coso6:hover{
+filter: invert(75%);
+transition: all 0.5s ease-out;
+
+
+
+
+}
+#logito, #coso7:hover{
+filter: invert(75%);
+transition: all 0.5s ease-out;
+
+
+
+
+}
+#logito, #coso8:hover{
+filter: invert(75%);
+transition: all 0.5s ease-out;
+
+
+
+
+}
+#popo{
+width:62%;
+height:100%;
+float:left;
+font-size:15px;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+#coso{
+margin-top:50px;
+display:grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: repeat(4,15vh); 
+gap:150px;
+height:800px;
+width:90%;
+float:left;
+margin-left:4%;
+position:absolute;
+
+}
+
+#coso1{
+background-color:white;
+
+}
+#coso2{
+background-color:white;
+
+}
+#coso3{
+background-color:white;
+
+}
+#coso4{
+background-color:white;
+
+}
+
+#coso5{
+background-color:white;
+
+}
+#coso6{
+background-color:white;
+
+}
+#coso7{
+background-color:white;
+
+}
+#coso8{
+background-color:white;
+
+}
+
+
+
+#logito{
+width:35%;
+height:80%;
+margin-top:2%;
+margin-left:2%;
+transition:all 0.5s;
+float:left;
+}
+
+
+.flip-card {
+  background-color: transparent;
+  width: 450px;
+  height: 600px;
+  perspective: 1000px; 
+
+
+}
+
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.5s; 
+  transform-style: preserve-3d;
+}
+
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+}
+
+
+.flip-card-front {
+  background-color: white;
+  border: solid gray 2px;
+  color: black;
+  border-radius:20px;
+}
+
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg); 
+    border-radius:20px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:url('ps5.jpg')
+}
+
+
+.flip-card-inner:hover {
+  transform: rotateY(180deg);
+}
+
+#izquierda{
+float:left;
+color:white;
+width:40%;
+height:60%;
+margin-top:10%;
+margin-left:3%;
+}
+
+strong{
+font-size:30px;
+}
+
+#derecha{
+color:white;
+width:100%;
+height:100%;
+margin-top:10%;
+margin-left:3%;
+
+}
